@@ -7,6 +7,9 @@
     "rootDir": "./src",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "types": ["node", "fastify", "@google/generative-ai"]
   }
 }
