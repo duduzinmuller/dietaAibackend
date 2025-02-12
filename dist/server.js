@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fastify_1 = __importDefault(require("fastify"));
 const cors_1 = __importDefault(require("@fastify/cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
-const routes_1 = require("./routes");
+const routes_1 = require("./src/routes");
 const app = (0, fastify_1.default)({ logger: true });
 dotenv_1.default.config();
 app.setErrorHandler((error, request, reply) => {
