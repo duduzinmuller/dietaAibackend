@@ -11,7 +11,9 @@ app.setErrorHandler((error, request, reply) => {
 });
 
 const start = async () => {
-  app.register(cors);
+  app.register(cors, {
+    origin: "*",
+  });
   app.register(routes);
 
   try {
