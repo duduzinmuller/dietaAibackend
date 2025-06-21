@@ -1,4 +1,4 @@
-dietaAibackend
+
 🧠 Descrição
 Backend para assistente de dieta inteligente desenvolvido com Node.js e TypeScript, utilizando o framework Fastify para alta performance e escalabilidade. A IA interage com o usuário para fornecer recomendações alimentares personalizadas, auxiliando no controle de hábitos alimentares e objetivos de saúde.
 
